@@ -1,0 +1,60 @@
+name: GitHub Issue Tracker
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: issue-tracker
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  track-issues:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -q -r requirements.txt
+
+      - name: Run Issue Tracker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADO_PAT: ${{ secrets.ADO_PAT }}
+          ADO_ORG: CSACTOSOL
+          ADO_PROJECT: CSA Solutioning
+          ADO_AREA_PATH: "CSA Solutioning\\Engineering - Tech Debt - Maintenance"
+          ADO_PARENT_US_ID: "36885"
+          POWER_AUTOMATE_EMAIL_URL: ${{ secrets.POWER_AUTOMATE_EMAIL_URL }}
+          POWER_AUTOMATE_TEAMS_URL: ${{ secrets.POWER_AUTOMATE_TEAMS_URL }}
+          TEAMS_CHAT_ID: ${{ vars.TEAMS_CHAT_ID }}
+          SENDER_EMAIL: ${{ vars.SENDER_EMAIL }}
+          CC_EMAILS: ${{ vars.CC_EMAILS }}
+          STATE_FILE: ${{ github.workspace }}/state/tracked_issues_state.json
+        run: python run_tracker.py
+
+      - name: Commit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash --include-untracked || true
+          git pull --rebase origin main || true
+          git stash pop || true
+          git add state/tracked_issues_state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update tracker state [skip ci]"
+            git push
+          fi
