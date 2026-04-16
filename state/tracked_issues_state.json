@@ -2,31 +2,31 @@
   "microsoft/customer-chatbot-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "Azure-Samples/chat-with-your-data-solution-accelerator": {
@@ -50,9 +50,10 @@
         "created_at": "2026-03-04T08:40:43Z",
         "user": "ogis-ando-m",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-03-04T13:46:47Z"
       },
       "2103": {
         "title": "Implement more efficient chunking strategies",
@@ -60,9 +61,10 @@
         "created_at": "2026-02-26T21:57:42Z",
         "user": "bobome-ola",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-03-02T05:31:13Z"
       },
       "2093": {
         "title": "Implement a useful re-ranking strategy through azureSearchUseSemanticSearch",
@@ -70,9 +72,10 @@
         "created_at": "2026-02-19T20:54:49Z",
         "user": "bobome-ola",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-02-20T08:36:12Z"
       },
       "1756": {
         "title": "Enhancement: move from azure.ai.formrecognizer package to azure.ai.documentintelligence",
@@ -80,9 +83,10 @@
         "created_at": "2025-04-30T09:36:16Z",
         "user": "federicocaccialanzaabb",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-05-05T12:27:02Z"
       },
       "1746": {
         "title": "chat history is not working when using the Teams extension",
@@ -90,9 +94,10 @@
         "created_at": "2025-04-04T18:48:07Z",
         "user": "concertoroberto",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-04-07T10:50:37Z"
       },
       "1632": {
         "title": "Automatic follow-up questions in the chat",
@@ -100,9 +105,10 @@
         "created_at": "2025-01-23T01:56:06Z",
         "user": "cristofima",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-04-11T21:28:20Z"
       },
       "1620": {
         "title": "Enable feedback to cosmos DB",
@@ -110,9 +116,10 @@
         "created_at": "2025-01-08T14:20:01Z",
         "user": "edgBR",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-01-08T21:48:04Z"
       },
       "1435": {
         "title": "Tables from word documents are not read",
@@ -120,9 +127,10 @@
         "created_at": "2024-10-24T15:56:53Z",
         "user": "andrewwiebe",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2024-10-24T23:15:42Z"
       },
       "1433": {
         "title": "Support for multiple AI Search index calls / Documentation support for Semantic Kernel orchestration strategy",
@@ -130,9 +138,10 @@
         "created_at": "2024-10-22T09:41:26Z",
         "user": "strudel0209",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2024-10-29T20:31:41Z"
       },
       "1391": {
         "title": "The managed identity configuration is invalid: Managed identity is not enabled for the current resource -- Document Intelligence",
@@ -140,9 +149,10 @@
         "created_at": "2024-10-07T22:24:57Z",
         "user": "jmasengeshomsft",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2024-10-10T16:25:27Z"
       },
       "1327": {
         "title": "parameters to use existing search, openai and storage account",
@@ -150,24 +160,25 @@
         "created_at": "2024-09-17T20:57:33Z",
         "user": "guyyardeni",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2024-11-06T23:10:02Z"
       }
     },
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Data-and-Agent-Governance-and-Security-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
@@ -182,9 +193,10 @@
         "created_at": "2026-03-17T14:21:09Z",
         "user": "quietobserver1",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-03-18T06:03:16Z"
       },
       "568": {
         "title": "App Registration - security",
@@ -192,30 +204,31 @@
         "created_at": "2026-03-17T14:19:07Z",
         "user": "quietobserver1",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-03-18T04:56:29Z"
       }
     },
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
@@ -233,9 +246,10 @@
         "created_at": "2026-02-23T11:43:27Z",
         "user": "so-akire",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-02-23T11:59:42Z"
       },
       "600": {
         "title": "Graph creation using code interpreter using this solution accelerator",
@@ -243,9 +257,10 @@
         "created_at": "2025-10-29T08:40:11Z",
         "user": "clement-lucas",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-10-29T09:41:02Z"
       },
       "362": {
         "title": "I\u2019d like you to take a look.",
@@ -253,9 +268,10 @@
         "created_at": "2025-08-01T21:43:37Z",
         "user": "ghost",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-08-03T17:16:03Z"
       },
       "349": {
         "title": "Azure Container Registry is Not deployed with Main Bicep Template",
@@ -263,9 +279,10 @@
         "created_at": "2025-07-28T14:25:56Z",
         "user": "honestypugh2",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2025-07-30T15:07:05Z"
       },
       "345": {
         "title": "Support Adjust Plan",
@@ -273,18 +290,19 @@
         "created_at": "2025-07-24T08:50:01Z",
         "user": "unique94",
         "first_seen": "2026-04-14T13:55:37.329853+00:00",
-        "followup_found": false,
+        "followup_found": true,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "followup_at": "2026-01-21T02:12:42Z"
       }
     },
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   },
   "microsoft/real-time-intelligence-operations-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-16T13:21:20.417654+00:00",
+    "last_checked": "2026-04-16T15:11:16.364405+00:00",
     "last_new_count": 0
   }
 }
