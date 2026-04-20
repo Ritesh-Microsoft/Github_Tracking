@@ -2,31 +2,31 @@
   "microsoft/customer-chatbot-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "Azure-Samples/chat-with-your-data-solution-accelerator": {
@@ -166,19 +166,19 @@
         "followup_at": "2024-11-06T23:10:02Z"
       }
     },
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Data-and-Agent-Governance-and-Security-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
@@ -210,25 +210,25 @@
         "followup_at": "2026-03-18T04:56:29Z"
       }
     },
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
@@ -296,13 +296,13 @@
         "followup_at": "2026-01-21T02:12:42Z"
       }
     },
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   },
   "microsoft/real-time-intelligence-operations-solution-accelerator": {
     "seen_issues": [],
     "issue_details": {},
-    "last_checked": "2026-04-20T11:53:03.616255+00:00",
+    "last_checked": "2026-04-20T13:15:32.250676+00:00",
     "last_new_count": 0
   }
 }
