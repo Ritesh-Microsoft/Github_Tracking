@@ -1,31 +1,31 @@
 {
   "microsoft/customer-chatbot-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
@@ -43,7 +43,7 @@
       1391,
       1327
     ],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {
       "2112": {
@@ -148,28 +148,14 @@
     }
   },
   "microsoft/Data-and-Agent-Governance-and-Security-Accelerator": {
-    "seen_issues": [
-      37
-    ],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "seen_issues": [],
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
-    "issue_details": {
-      "37": {
-        "title": "[Auto] AI Gallery Standard Validation",
-        "html_url": "https://github.com/microsoft/Data-and-Agent-Governance-and-Security-Accelerator/issues/37",
-        "created_at": "2026-04-09T23:57:51Z",
-        "user": "ai-apps-bot",
-        "first_seen": "2026-04-09T23:58:05.563423+00:00",
-        "followup_found": true,
-        "ado_bug_id": 39673,
-        "ado_bug_url": "https://dev.azure.com/CSACTOSOL/03e03490-e6d3-4222-9888-dfe81f0e986a/_workitems/edit/39673",
-        "followup_at": "2026-04-10T04:31:08Z"
-      }
-    }
+    "issue_details": {}
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
@@ -178,7 +164,7 @@
       569,
       568
     ],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -203,32 +189,33 @@
   },
   "microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
     "seen_issues": [
+      940,
       826,
       600,
       362,
       349,
       345
     ],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
-    "last_new_count": 0,
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
+    "last_new_count": 1,
     "issue_details": {
       "826": {
         "title": "Unable to use Foundry Agent?",
@@ -284,12 +271,22 @@
         "ado_bug_id": 39446,
         "ado_bug_url": "https://dev.azure.com/CSACTOSOL/03e03490-e6d3-4222-9888-dfe81f0e986a/_workitems/edit/39446",
         "followup_at": "2026-01-21T02:12:42Z"
+      },
+      "940": {
+        "title": "Migrating to Azure Kubernetes Service (AKS)",
+        "html_url": "https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator/issues/940",
+        "created_at": "2026-04-21T07:28:07Z",
+        "user": "sudino",
+        "first_seen": "2026-04-28T05:43:28.497647+00:00",
+        "followup_found": false,
+        "ado_bug_id": null,
+        "ado_bug_url": null
       }
     }
   },
   "microsoft/real-time-intelligence-operations-solution-accelerator": {
     "seen_issues": [],
-    "last_checked": "2026-04-14T12:58:05.381010+00:00",
+    "last_checked": "2026-04-28T05:43:28.497647+00:00",
     "last_new_count": 0,
     "issue_details": {}
   },
