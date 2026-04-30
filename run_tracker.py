@@ -115,13 +115,21 @@ def run_tracker():
         else:
             log.info(f"  -> No new issues")
 
-        state[repo_key]["seen_issues"]   = [i["number"] for i in issues]
+        # Update seen_issues: UNION merge to prevent false notifications
+        # when the GitHub API intermittently returns empty/partial results
+        current_nums = {i["number"] for i in issues}
+        if not current_nums and seen:
+            log.warning(f"  ⚠ API returned 0 issues but {len(seen)} were tracked — keeping existing state")
+        else:
+            state[repo_key]["seen_issues"] = list(seen | current_nums)
         state[repo_key]["last_checked"]  = now.isoformat()
         state[repo_key]["last_new_count"] = len(new_issues)
 
-        open_nums = {str(i["number"]) for i in issues}
-        for k in [k for k in details if k not in open_nums]:
-            del details[k]
+        # Purge closed issues from follow-up tracking (only when API returned results)
+        if current_nums or not seen:
+            open_nums = {str(i["number"]) for i in issues}
+            for k in [k for k in details if k not in open_nums]:
+                del details[k]
 
         # Follow-up SLA check
         overdue_issues = []

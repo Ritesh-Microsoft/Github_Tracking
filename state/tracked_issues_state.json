@@ -165,27 +165,25 @@
       568
     ],
     "last_checked": "2026-04-30T15:44:21.382239+00:00",
-    "last_new_count": 2,
+    "last_new_count": 0,
     "issue_details": {
       "569": {
         "title": "Internal Use",
         "html_url": "https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator/issues/569",
         "created_at": "2026-03-17T14:21:09Z",
         "user": "quietobserver1",
-        "first_seen": "2026-04-30T15:44:21.382239+00:00",
-        "followup_found": false,
-        "ado_bug_id": null,
-        "ado_bug_url": null
+        "first_seen": "2026-03-17T14:21:09Z",
+        "followup_found": true,
+        "followup_at": "2026-03-18T06:03:16Z"
       },
       "568": {
         "title": "App Registration - security",
         "html_url": "https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator/issues/568",
         "created_at": "2026-03-17T14:19:07Z",
         "user": "quietobserver1",
-        "first_seen": "2026-04-30T15:44:21.382239+00:00",
-        "followup_found": false,
-        "ado_bug_id": null,
-        "ado_bug_url": null
+        "first_seen": "2026-03-17T14:19:07Z",
+        "followup_found": true,
+        "followup_at": "2026-03-18T04:56:29Z"
       }
     }
   },
