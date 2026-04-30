@@ -116,52 +116,69 @@ def run_tracker():
             log.info(f"  -> No new issues")
 
         # Update seen_issues: UNION merge to prevent false notifications
-        # when the GitHub API intermittently returns empty/partial results
+        # when the GitHub API intermittently returns empty/partial results.
+        # A response is "trustworthy" only when it returns results or when
+        # we have no prior tracked issues. Empty responses require 3 consecutive
+        # occurrences before we trust that a repo truly has 0 open issues.
         current_nums = {i["number"] for i in issues}
+        trustworthy = True
         if not current_nums and seen:
-            log.warning(f"  ⚠ API returned 0 issues but {len(seen)} were tracked — keeping existing state")
+            empty_streak = state[repo_key].get("_empty_streak", 0) + 1
+            state[repo_key]["_empty_streak"] = empty_streak
+            if empty_streak < 3:
+                log.warning(f"  ⚠ API returned 0 issues but {len(seen)} tracked "
+                            f"(streak {empty_streak}/3) — keeping existing state")
+                trustworthy = False
+            else:
+                log.info(f"  ℹ 3 consecutive empty responses — clearing state")
+                state[repo_key]["_empty_streak"] = 0
         else:
-            state[repo_key]["seen_issues"] = list(seen | current_nums)
-        state[repo_key]["last_checked"]  = now.isoformat()
-        state[repo_key]["last_new_count"] = len(new_issues)
+            state[repo_key]["_empty_streak"] = 0
 
-        # Purge closed issues from follow-up tracking (only when API returned results)
-        if current_nums or not seen:
+        if trustworthy:
+            state[repo_key]["seen_issues"] = list(seen | current_nums)
+            # Purge closed issues from follow-up tracking
             open_nums = {str(i["number"]) for i in issues}
             for k in [k for k in details if k not in open_nums]:
                 del details[k]
 
-        # Follow-up SLA check
+        state[repo_key]["last_checked"]  = now.isoformat()
+        state[repo_key]["last_new_count"] = len(new_issues)
+
+        # Follow-up SLA check (skip if API snapshot was untrustworthy)
         overdue_issues = []
-        for num_str, det in details.items():
-            if det.get("followup_found"):
-                continue
-            first_seen = datetime.fromisoformat(det["first_seen"])
-            age = now - first_seen
-            if age < timedelta(days=followup_days):
-                continue
-            last_rem = det.get("last_reminder_sent")
-            if last_rem:
-                since = now - datetime.fromisoformat(last_rem)
-                if since < timedelta(hours=reminder_hrs):
+        if not trustworthy:
+            log.info(f"  ⏭ Skipping follow-up check — API snapshot untrustworthy")
+        else:
+            for num_str, det in details.items():
+                if det.get("followup_found"):
                     continue
-            comments = fetch_issue_comments(owner, repo, int(num_str))
-            if comments is None:
-                continue
-            if len(comments) > 0:
-                det["followup_found"] = True
-                det["followup_at"] = comments[0]["created_at"]
-                log.info(f"    Follow-up found: {accel} #{num_str}")
-                continue
-            overdue_issues.append({
-                "number": int(num_str),
-                "title": det.get("title", "N/A"),
-                "html_url": f"{repo_url}/issues/{num_str}",
-                "created_at": det.get("created_at", "N/A"),
-                "user": det.get("user", "N/A"),
-                "age_days": age.days,
-            })
-            det["last_reminder_sent"] = now.isoformat()
+                first_seen = datetime.fromisoformat(det["first_seen"])
+                age = now - first_seen
+                if age < timedelta(days=followup_days):
+                    continue
+                last_rem = det.get("last_reminder_sent")
+                if last_rem:
+                    since = now - datetime.fromisoformat(last_rem)
+                    if since < timedelta(hours=reminder_hrs):
+                        continue
+                comments = fetch_issue_comments(owner, repo, int(num_str))
+                if comments is None:
+                    continue
+                if len(comments) > 0:
+                    det["followup_found"] = True
+                    det["followup_at"] = comments[0]["created_at"]
+                    log.info(f"    Follow-up found: {accel} #{num_str}")
+                    continue
+                overdue_issues.append({
+                    "number": int(num_str),
+                    "title": det.get("title", "N/A"),
+                    "html_url": f"{repo_url}/issues/{num_str}",
+                    "created_at": det.get("created_at", "N/A"),
+                    "user": det.get("user", "N/A"),
+                    "age_days": age.days,
+                })
+                det["last_reminder_sent"] = now.isoformat()
 
         if overdue_issues:
             log.warning(f"  {accel}: {len(overdue_issues)} overdue!")
