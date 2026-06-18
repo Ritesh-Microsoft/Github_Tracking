@@ -3,8 +3,8 @@
     "seen_issues": [
       265
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "265": {
         "title": "[Optional] Publish to azure samples browser",
@@ -23,8 +23,8 @@
     "seen_issues": [
       454
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "454": {
         "title": "[Optional] Publish to azure samples browser",
@@ -43,8 +43,8 @@
     "seen_issues": [
       293
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "293": {
         "title": "[Optional] Publish to azure samples browser",
@@ -63,8 +63,8 @@
     "seen_issues": [
       875
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "875": {
         "title": "[Optional] Publish to azure samples browser",
@@ -83,8 +83,8 @@
     "seen_issues": [
       630
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "630": {
         "title": "[Optional] Publish to azure samples browser",
@@ -113,7 +113,7 @@
       1327,
       2103
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
     "last_new_count": 0,
     "issue_details": {
       "2112": {
@@ -222,17 +222,17 @@
     "seen_issues": [
       53
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [
       167
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "167": {
         "title": "[Optional] Publish to azure samples browser",
@@ -252,7 +252,7 @@
       568,
       569
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -280,8 +280,8 @@
     "seen_issues": [
       430
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "430": {
         "title": "[Optional] Publish to azure samples browser",
@@ -300,8 +300,8 @@
     "seen_issues": [
       970
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "970": {
         "title": "[Optional] Publish to azure samples browser",
@@ -320,8 +320,8 @@
     "seen_issues": [
       125
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "125": {
         "title": "[Optional] Publish to azure samples browser",
@@ -346,8 +346,8 @@
       826,
       349
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "826": {
         "title": "Unable to use Foundry Agent?",
@@ -408,8 +408,8 @@
     "seen_issues": [
       90
     ],
-    "last_checked": "2026-06-18T05:13:05.728161+00:00",
-    "last_new_count": 1,
+    "last_checked": "2026-06-18T09:50:55.489669+00:00",
+    "last_new_count": 0,
     "issue_details": {
       "90": {
         "title": "[Optional] Publish to azure samples browser",
