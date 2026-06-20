@@ -3,7 +3,7 @@
     "seen_issues": [
       265
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "265": {
@@ -14,7 +14,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -23,7 +24,7 @@
     "seen_issues": [
       454
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "454": {
@@ -34,7 +35,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -43,7 +45,7 @@
     "seen_issues": [
       293
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "293": {
@@ -54,7 +56,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -63,7 +66,7 @@
     "seen_issues": [
       875
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "875": {
@@ -74,7 +77,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -83,7 +87,7 @@
     "seen_issues": [
       630
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "630": {
@@ -94,7 +98,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -113,7 +118,7 @@
       1327,
       2103
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "2112": {
@@ -222,16 +227,16 @@
     "seen_issues": [
       53
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [
       167
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "167": {
@@ -242,7 +247,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -252,7 +258,7 @@
       568,
       569
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -280,7 +286,7 @@
     "seen_issues": [
       430
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "430": {
@@ -291,7 +297,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -300,7 +307,7 @@
     "seen_issues": [
       970
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "970": {
@@ -311,7 +318,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -320,7 +328,7 @@
     "seen_issues": [
       125
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "125": {
@@ -331,7 +339,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -346,7 +355,7 @@
       826,
       349
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "826": {
@@ -399,7 +408,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
@@ -408,7 +418,7 @@
     "seen_issues": [
       90
     ],
-    "last_checked": "2026-06-20T01:34:34.547064+00:00",
+    "last_checked": "2026-06-20T06:14:28.571829+00:00",
     "last_new_count": 0,
     "issue_details": {
       "90": {
@@ -419,7 +429,8 @@
         "first_seen": "2026-06-18T05:13:05.728161+00:00",
         "followup_found": false,
         "ado_bug_id": null,
-        "ado_bug_url": null
+        "ado_bug_url": null,
+        "last_reminder_sent": "2026-06-20T06:14:28.571829+00:00"
       }
     },
     "_empty_streak": 0
