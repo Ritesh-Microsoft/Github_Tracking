@@ -3,46 +3,46 @@
     "seen_issues": [
       265
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [
       454
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [
       293
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [
       875
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [
       630
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Azure-Samples/chat-with-your-data-solution-accelerator": {
     "seen_issues": [
@@ -58,7 +58,7 @@
       1327,
       2103
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {
       "2112": {
@@ -167,38 +167,26 @@
     "seen_issues": [
       53
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [
       167
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
-    "issue_details": {
-      "167": {
-        "title": "[Optional] Publish to azure samples browser",
-        "html_url": "https://github.com/microsoft/Deploy-Your-AI-Application-In-Production/issues/167",
-        "created_at": "2026-06-18T03:39:24Z",
-        "user": "v-xuto",
-        "first_seen": "2026-06-18T05:13:05.728161+00:00",
-        "followup_found": false,
-        "ado_bug_id": null,
-        "ado_bug_url": null,
-        "last_reminder_sent": "2026-06-23T00:12:08.747016+00:00"
-      }
-    },
-    "_empty_streak": 2
+    "issue_details": {},
+    "_empty_streak": 0
   },
   "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       568,
       569
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -226,28 +214,28 @@
     "seen_issues": [
       430
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       970
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [
       125
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
     "seen_issues": [
@@ -259,7 +247,7 @@
       826,
       349
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {
       "826": {
@@ -311,10 +299,10 @@
     "seen_issues": [
       90
     ],
-    "last_checked": "2026-06-23T08:24:57.257080+00:00",
+    "last_checked": "2026-06-23T11:36:51.867260+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Ritesh-Microsoft/content-processing-solution-automation": {
     "seen_issues": [
