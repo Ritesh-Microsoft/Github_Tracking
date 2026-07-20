@@ -3,47 +3,47 @@
     "seen_issues": [
       265
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [
       454
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [
       293,
       309
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [
       875
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [
       630
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Azure-Samples/chat-with-your-data-solution-accelerator": {
     "seen_issues": [
@@ -59,7 +59,7 @@
       1327,
       2103
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {
       "2112": {
@@ -168,26 +168,26 @@
     "seen_issues": [
       53
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [
       167
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       568,
       569
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -215,28 +215,28 @@
     "seen_issues": [
       430
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       970
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [
       125
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
     "seen_issues": [
@@ -250,7 +250,7 @@
       826,
       349
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {
       "826": {
@@ -294,17 +294,6 @@
         "first_seen": "2026-04-28T04:30:00+00:00",
         "followup_found": true,
         "followup_at": "2026-04-21T08:41:57Z"
-      },
-      "1073": {
-        "title": "GPT 4.1 and GPT 4.1 Mini are deprecated",
-        "html_url": "https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator/issues/1073",
-        "created_at": "2026-06-29T05:35:18Z",
-        "user": "KietNhiTran",
-        "first_seen": "2026-06-29T07:51:07.320026+00:00",
-        "followup_found": true,
-        "ado_bug_id": null,
-        "ado_bug_url": null,
-        "followup_at": "2026-06-29T07:51:53Z"
       }
     },
     "_empty_streak": 0
@@ -313,10 +302,10 @@
     "seen_issues": [
       90
     ],
-    "last_checked": "2026-07-20T08:21:29.248384+00:00",
+    "last_checked": "2026-07-20T11:19:27.727921+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Ritesh-Microsoft/content-processing-solution-automation": {
     "seen_issues": [
