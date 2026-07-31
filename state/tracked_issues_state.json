@@ -3,47 +3,47 @@
     "seen_issues": [
       265
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Modernize-your-code-solution-accelerator": {
     "seen_issues": [
       454
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Container-Migration-Solution-Accelerator": {
     "seen_issues": [
       293,
       309
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/content-generation-solution-accelerator": {
     "seen_issues": [
       875
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/content-processing-solution-accelerator": {
     "seen_issues": [
       630
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Azure-Samples/chat-with-your-data-solution-accelerator": {
     "seen_issues": [
@@ -54,13 +54,14 @@
       1435,
       1756,
       1632,
+      2341,
       2093,
       1391,
       1327,
       2103
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
-    "last_new_count": 0,
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
+    "last_new_count": 1,
     "issue_details": {
       "2103": {
         "title": "Implement more efficient chunking strategies",
@@ -151,6 +152,16 @@
         "first_seen": "2024-09-17T20:57:33Z",
         "followup_found": true,
         "followup_at": "2024-11-06T23:10:02Z"
+      },
+      "2341": {
+        "title": "Quota warning suggests wrong region variable for AI model deployment",
+        "html_url": "https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/issues/2341",
+        "created_at": "2026-07-31T15:40:05Z",
+        "user": "agxc",
+        "first_seen": "2026-07-31T17:01:57.576554+00:00",
+        "followup_found": false,
+        "ado_bug_id": null,
+        "ado_bug_url": null
       }
     },
     "_empty_streak": 0
@@ -159,26 +170,26 @@
     "seen_issues": [
       53
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Deploy-Your-AI-Application-In-Production": {
     "seen_issues": [
       167
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 2
+    "_empty_streak": 0
   },
   "microsoft/Document-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       568,
       569
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {
       "569": {
@@ -206,28 +217,28 @@
     "seen_issues": [
       430
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/Conversation-Knowledge-Mining-Solution-Accelerator": {
     "seen_issues": [
       970
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "microsoft/unified-data-foundation-with-fabric-solution-accelerator": {
     "seen_issues": [
       125
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 0
+    "_empty_streak": 1
   },
   "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator": {
     "seen_issues": [
@@ -241,7 +252,7 @@
       826,
       349
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {
       "826": {
@@ -293,10 +304,10 @@
     "seen_issues": [
       90
     ],
-    "last_checked": "2026-07-31T15:13:28.848273+00:00",
+    "last_checked": "2026-07-31T17:01:57.576554+00:00",
     "last_new_count": 0,
     "issue_details": {},
-    "_empty_streak": 1
+    "_empty_streak": 2
   },
   "Ritesh-Microsoft/content-processing-solution-automation": {
     "seen_issues": [
